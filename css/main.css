@@ -1,3 +1,102 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: inline-block;
+  height: 78px;
+  left: 59%;
+  outline: 1px solid yellow;
+  position: absolute;
+  width: 41%;
+  color: white;
+}
+
+header {
+  height: 354px;
+  width: 100%;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.menu1 {
+  display: inline-block;
+  height: 100%;
+  width: 17.26%;
+  position: relative;
+  text-align: center;
+  top:25px;
+  vertical-align: middle;
+
+}
+
+.menu2 {
+  display: inline-block;
+  height: 100%;
+  width: 14.8%;
+  position: relative;
+  text-align: center;
+  top:25px;
+  vertical-align: middle;
+}
+
+.menu3 {
+  display: inline-block;
+  height: 100%;
+  width: 18.08%;
+  position: relative;
+  text-align: center;
+  top:25px;
+  vertical-align: middle;
+}
+.menu4 {
+  border: 2px solid white;
+  border-radius: 5px;
+  display: inline-block;
+  height: 40%;
+  width: 17.1%;
+  position: relative;
+  padding-top: 8px;
+  text-align: center;
+}
+
+.img-nav {
+  display: inline-block;
+  margin: 0px;
+  overflow: auto;
+  width: 100%;
+}
+.img-text-1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 41%;
+}
+
+.section1 {
+  background: linear-gradient(#76278F, #2B1E66);
+  height: 415px;
+  position: relative;
+  top: 406px;
+  width: 100%;
+}
+
+.phone {
+  height: 415px;
+  position: absolute;
+  right: 0px;
+}
+
+.section1 section div {
+  color: white;
+  left:10%;
+  position: relative;
+}
+
+.title-section-2 {
+  font-size: 28px;
+  font-weight: bold;
+}
