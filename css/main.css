@@ -6,20 +6,43 @@
 nav {
   display: inline-block;
   height: 78px;
-  left: 59%;
-  outline: 1px solid yellow;
   position: absolute;
-  width: 41%;
+  width: 100%;
   color: white;
 }
 
 header {
   height: 354px;
   width: 100%;
+  display: inline-block;
+}
+
+footer{
+  background: #333447;
+  bottom: 9px;
+  color: white;
+  position: relative;
+  width: 100%;
+  height: 456px;
 }
 
 .text-uppercase {
   text-transform: uppercase;
+}
+.menu-nav {
+  display: inline-block;
+  height: 78px;
+  left: 59%;
+  position: absolute;
+  width: 41%;
+  color: white;
+}
+.logo-nav { /*logo-white.png*/
+  height: 38px;
+  left: 6.18%;
+  position: absolute;
+  top:22px;
+  width: 5.6%;
 }
 
 .menu1 {
@@ -53,7 +76,6 @@ header {
   vertical-align: middle;
 }
 .menu4 {
-  border: 2px solid white;
   border-radius: 5px;
   display: inline-block;
   height: 40%;
@@ -63,40 +85,113 @@ header {
   text-align: center;
 }
 
-.img-nav {
+.img-nav-fondo{
   display: inline-block;
+  height: 354px;
   margin: 0px;
   overflow: auto;
   width: 100%;
 }
-.img-text-1 {
+
+.cont-img-text-1 {
   position: absolute;
-  right: 0;
-  bottom: 0;
   width: 41%;
+  right: 0px;
+  top: 77px;
+
+}
+.img-text-1 {
+  position: relative;
+  margin: 0px;
+  overflow: auto;
+  width: 100%;
+  display: inline-block;
+
 }
 
 .section1 {
   background: linear-gradient(#76278F, #2B1E66);
-  height: 415px;
+  height: 419px;
   position: relative;
-  top: 406px;
+  bottom: 5px;
   width: 100%;
 }
 
+.text-section-1 {
+  position: relative;
+  top: 55px;
+  width: 59%;
+}
+
 .phone {
-  height: 415px;
+  top: 75px;
+  height: 308px;
   position: absolute;
-  right: 0px;
+  right: 15%;
 }
 
 .section1 section div {
   color: white;
   left:10%;
   position: relative;
+  font-weight:lighter;
+  padding-bottom: 20px;
 }
 
-.title-section-2 {
-  font-size: 28px;
+.title-section-1 {
+  font-size: 26px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.section-2, .section-3, .section-4 {
+  bottom:5px;
+  height: 325px;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+
+.section-description {
+  vertical-align: top;
+  top:25px;
+  position: relative;
+  width: 26.4%;
+  height: 50%;
+  display: inline-block;
+
+}
+.section-img{
+  position: relative;
+  width: 73%;
+  height: 100%;
+  display: inline-block;
+}
+
+.watch {
+  padding-left: 10%;
+  font-size: 8px;
   font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.title-section {
+  padding-left: 10%;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 26px;
+}
+
+.text-section {
+  padding-left: 10%;
+  font-size: 10px;
+  width: 53%;
+}
+
+#title-drivers-riders {
+  padding: 0px;
+}
+
+#text-drivers-riders {
+  padding-top: 20px;
 }
