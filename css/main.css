@@ -33,6 +33,14 @@ hr {
   width: 56.2%;
 }
 
+#title-drivers-riders {
+  padding: 0px;
+}
+
+#text-drivers-riders {
+  padding-top: 20px;
+}
+
 .text-uppercase {
   text-transform: uppercase;
 }
@@ -48,8 +56,8 @@ hr {
   left: 59%;
   position: absolute;
   width: 41%;
-
 }
+
 .logo-nav { /*logo-white.png*/
   height: 38px;
   left: 6.18%;
@@ -87,6 +95,7 @@ hr {
   vertical-align: middle;
   width: 18.08%;
 }
+
 .menu4 {
   border-radius: 5px;
   display: inline-block;
@@ -97,7 +106,6 @@ hr {
   width: 17.1%;
 }
 
-
 .title-form {
   color: #352384;
   font-size: 20px;
@@ -107,6 +115,7 @@ hr {
   top: 10%;
   width: 30%;
 }
+
 .subtitle-form {
   color: #352384;
   font-size: 8px;
@@ -118,6 +127,7 @@ hr {
   top: 10%;
   width: 30%;
 }
+
 .input-form {
   color: gray;
   font-size: 10px;
@@ -134,9 +144,7 @@ hr {
 }
 
 .send-form {
-
   display: inline-block;
-
 }
 .boton-form {
   background: #FF00BF;
@@ -149,6 +157,7 @@ hr {
   top: 23px;
   vertical-align: middle;
 }
+
 .link-form {
   color: gray;
   display: inline-block;
@@ -164,10 +173,7 @@ hr {
   padding-left: 70px;
   padding-top: 50px;
   width: 34%;
-
 }
-
-
 
 .img-nav-fondo{
   display: inline-block;
@@ -177,8 +183,6 @@ hr {
   width: 100%;
 }
 
-
-
 .cont-form {
   background: #ffffff;
   height: 275px;
@@ -187,9 +191,6 @@ hr {
   top: 77px;
   width: 41%;
 }
-
-
-
 
 .section1 {
   background: linear-gradient(#76278F, #2B1E66);
@@ -324,12 +325,4 @@ hr {
   left: 43%;
   position: relative;
   top: 130px;
-}
-
-#title-drivers-riders {
-  padding: 0px;
-}
-
-#text-drivers-riders {
-  padding-top: 20px;
 }
